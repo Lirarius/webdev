@@ -1,0 +1,14 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.item{
+   width: 200px;
+   height: 100px;
+   background-color: green; 
+   padding: 15px;
+}
